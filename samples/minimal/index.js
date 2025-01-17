@@ -35,8 +35,8 @@ server.list_fields = ({ object }) => {
         array: false,
       },
       {
-        field_api_name: "name",
-        label: "Name",
+        field_api_name: "firstname",
+        label: "First Name",
         identifier: false,
         createable: true,
         updateable: true,
@@ -44,6 +44,16 @@ server.list_fields = ({ object }) => {
         required: true,
         array: false,
       },
+      {
+        field_api_name: "lastname",
+        label: "Last Name",
+        identifier: false,
+        createable: true,
+        updateable: true,
+        type: "string",
+        required: true,
+        array: false,
+      }
     ],
   };
 };
